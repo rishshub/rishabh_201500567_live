@@ -23,12 +23,14 @@ nav .menu{
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+  /* margin-left: 200;; */
 }
 .menu .logo a{
   text-decoration: none;
   color: rgb(210, 42, 42);
   font-size: 35px;
   font-weight: 600;
+  /* margin-left: 200px;; */
   
 }
 .menu ul{
@@ -49,6 +51,7 @@ nav .menu{
   padding: 8px 15px;
   border-radius: 5px;
   transition: all 0.3s ease;
+  
 }
 .menu ul li a:hover{
   background: rgb(227, 94, 94);
@@ -79,28 +82,28 @@ nav .menu{
   text-align: center;
 }
 .center .title{
-  color: #fff;
+  color: rgb(16, 7, 7);
   margin-left: 25%;
   font-size: 55px;
   text-align: left;
   font-weight: 600;
 }
 .center .sub_title{
-  color: rgb(87, 87, 91);
+  color: rgb(10, 5, 5);
   font-size: 20px;
   text-align: left;
   margin-left: 25%;
   font-weight: 300;
 }
 body {
-    background-image: url('');
+    background-image: url('./img.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
   }
 .qw
 {
-    color: rgb(251, 251, 251);
+    color: rgb(213, 40, 40);
 }
 .center .btns{
   margin-top: 20px;
@@ -128,6 +131,9 @@ body {
     display: inline-block;
     margin : 0% 7% 0% 7%;
 }
+
+
+
 .bottom
 {
     background-color: #5a5757;
